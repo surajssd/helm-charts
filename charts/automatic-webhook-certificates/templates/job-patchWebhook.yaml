@@ -27,7 +27,7 @@ spec:
         - --patch-failure-policy={{ .Values.webhook.failurePolicy }}
         - --patch-mutating={{ .Values.webhook.mutating }}
         - --patch-validating={{ .Values.webhook.validating }}
-        - --log-level={{ .Values.webhook.logLevel }}
+        - --log-level={{ .Values.logLevel }}
       restartPolicy: OnFailure
       serviceAccountName: {{ .Release.Name }}-admission
       securityContext:
