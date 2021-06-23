@@ -3,6 +3,16 @@ entries:
   automatic-webhook-certificates:
   - apiVersion: v2
     appVersion: v1.5.2
+    created: "2021-06-23T10:37:08.062663694+05:30"
+    description: A Helm chart for Kubernetes to generate webhook certificates automatically.
+    digest: 783bcd4e362866424a9ad9e331e59aa3d7d6361aea52ce4d3b98164c4e66b6da
+    name: automatic-webhook-certificates
+    type: application
+    urls:
+    - https://github.com/surajssd/helm-charts/releases/download/automatic-webhook-certificates-0.1.1/automatic-webhook-certificates-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: v1.5.2
     created: "2021-06-23T09:11:17.67982095+05:30"
     description: A Helm chart for Kubernetes to generate webhook certificates automatically.
     digest: 72f1023db1e121e9b1cab1813016676217b8e0fe856a5e4b318ae49e66162d89
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://github.com/surajssd/helm-charts/releases/download/automatic-webhook-certificates-0.1.0/automatic-webhook-certificates-0.1.0.tgz
     version: 0.1.0
-generated: "2021-06-23T09:11:17.679843788+05:30"
+generated: "2021-06-23T10:37:08.062716604+05:30"
