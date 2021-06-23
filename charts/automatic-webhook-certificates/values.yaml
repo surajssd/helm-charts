@@ -1,0 +1,24 @@
+application:
+  image: jettech/kube-webhook-certgen
+
+webhook:
+  # Name of the validatingwebhookconfigurations or mutatingwebhookconfigurations
+  name:
+
+  # Name of the service that is in front of the webhook server.
+  service:
+
+  # Name of the secret to store the newly created cert, key and ca certs into.
+  secret: webhooksecret
+
+  # Failure policy of the webhook configuration.
+  failurePolicy: Fail
+
+  # Specify the kind of webhook server. If it is both then specify both of them as true.
+  validating: true
+  mutating: false
+
+# Allowed values: panic|fatal|error|warn|info|debug|trace
+logLevel: info
+
+psp: true
